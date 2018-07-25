@@ -1,0 +1,22 @@
+{
+  "name": "timblo-website",
+  "version": "1.0.0",
+  "description": "http://timblo.us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fymmit/timblo-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fymmit/timblo-website/issues"
+  },
+  "homepage": "https://github.com/fymmit/timblo-website#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
