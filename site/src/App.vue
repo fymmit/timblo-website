@@ -1,13 +1,16 @@
 <template>
   <div id="app">
     <Header/>
-    <Main/>
+    <router-view>
+
+    </router-view>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Main from "./components/Main.vue";
+import About from "./components/About.vue";
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 
@@ -16,7 +19,8 @@ export default {
   components: {
     Main,
     Header,
-    Footer
+    Footer,
+    About
   }
 };
 </script>
