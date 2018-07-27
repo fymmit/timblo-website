@@ -18,5 +18,5 @@ gulp.task('build', [ 'install' ], shell.task(
 ))
 
 gulp.task('publish', [ 'build' ], shell.task(
-    "cd site && cp -r dist /var/www/html"
+    "cp -r site/dist/ /var/www/html"
 ))
