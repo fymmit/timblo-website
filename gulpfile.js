@@ -16,3 +16,7 @@ gulp.task('install', [ 'git:pull' ], shell.task(
 gulp.task('build', [ 'install' ], shell.task(
     "cd site && npm run build"
 ))
+
+gulp.task('publish', [ 'build' ], shell.task(
+    "cd site && cp dist /var/www/html"
+))
