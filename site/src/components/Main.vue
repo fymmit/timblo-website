@@ -1,6 +1,9 @@
 <template>
     <div>
-        Hello there.
+        <div>
+            Hello there.
+        </div>
+        <img src="http://aha.sirkku.net/aniki/aha.jpg" alt="aha">
     </div>
 </template>
 
