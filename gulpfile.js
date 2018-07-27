@@ -9,6 +9,10 @@ gulp.task('git:pull', shell.task(
     "git pull origin master"
 ))
 
-gulp.task('build', [ 'git:pull' ], shell.task(
+gulp.task('install', [ 'git:pull' ], shell.task(
+    "cd site && npm i"
+))
+
+gulp.task('build', [ 'install' ], shell.task(
     "cd site && npm run build"
 ))
