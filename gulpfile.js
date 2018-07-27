@@ -1,4 +1,5 @@
-const gulp = require('gulp')
+const   gulp = require('gulp'),
+        shell = require('gulp-shell')
 
 gulp.task('default', () => {
     console.log('Hello, gulp.');
