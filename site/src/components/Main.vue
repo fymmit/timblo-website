@@ -1,9 +1,9 @@
 <template>
     <div>
+        <img id="headshot" src="../assets/tb.jpg" alt="Timo face.">
         <div>
             Hello there.
         </div>
-        <img src="http://aha.sirkku.net/aniki/aha.jpg" alt="aha">
     </div>
 </template>
 
@@ -14,5 +14,10 @@ export default {
 </script>
 
 <style>
-
+#headshot {
+    object-fit: cover;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
 </style>
