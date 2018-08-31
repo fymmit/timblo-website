@@ -10,7 +10,7 @@ gulp.task('git:pull', shell.task(
 ))
 
 gulp.task('install', [ 'git:pull' ], shell.task(
-    "cd site && npm i"
+    "cd site && npm ci"
 ))
 
 gulp.task('build', [ 'install' ], shell.task(
